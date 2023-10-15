@@ -1,0 +1,602 @@
+/*homepage background image styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.home-background-image{
+    background-image: url("home-images/splash.png");
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+.h2-splash{
+    font-family: Jacques Francois;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(255, 196, 3);
+    text-shadow: 1px 2px #000 ;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+.p-splash{
+    color: #FFF;
+    text-align: center;
+    font-family: Caveat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+  }
+  
+.hotel-logo img{
+    width: 90px;
+    height: 85px;
+    
+  }
+  
+.hotel-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    top: 100px;
+  }
+  
+  /*button styles*/
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 15px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+.bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+.bn632-hover:focus {
+    outline: none;
+  }
+  
+.bn632-hover.bn21 {
+    background-image: linear-gradient(
+      to right,
+      #fc6076,
+      #ff9a44,
+      #ef9d43,
+      #e75516
+    );
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+  }
+  
+#bn-home{
+    position: relative;
+    top: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;
+  }
+
+  .brand{
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+    color: #11a1ee;
+    text-align: center;
+
+  }
+
+  .brand-a{
+    position: relative;
+    top: px;
+    text-decoration: none;
+    color: #11a1ee;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+
+  }
+
+  .brand-d{
+    position: relative;
+    top: px;
+    text-decoration: none;
+    color: #11a1ee;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+
+  }
+
+  .brand-b{
+    position: relative;
+    top: px;
+    text-decoration: none;
+    color: #11a1ee;
+    text-align: center;
+    padding-left: 25px;
+    padding-bottom: 50px;
+  }
+  .heart {
+    fill: red;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    animation: pulse 1s ease infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+  }
+
+  
+  /*MENU LIST STYLES*/
+
+  /*menulist background image styles*/
+
+.menulist-background-image{
+    background-image: url("menu-list-images/drink-bg.png");
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .menulist-background-image1{
+    background-image: url("menu-list-images/drink-bg.png");
+    width: 100vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  h2{
+    color: floralwhite;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  .disclaimer{
+    max-width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #414141;
+    border-radius: 10px;
+    padding-top: -20px;
+  }
+
+  .notice{
+    color: red;
+    font-weight: 600;
+  }
+
+  h3{
+    color: floralwhite;
+    z-index: 1;
+  }
+
+  .caption{
+    padding-top: 30px;
+  }
+
+  p{
+    position: relative;
+    top: -25px;
+    color: #bdbdbd;
+    z-index: 1;
+  }
+
+.content {
+    flex-shrink: 0;
+    width: 294px;
+    height: min-content; /* 350px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    justify-self: start;
+    align-self: start;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 30;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+.images{
+    flex-shrink: 0;
+    width: 100px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+    position: relative;
+    animation: float 2s infinite;
+    box-shadow: 0px 0px 400px #187206;
+    
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+}
+
+  /*DRINK LIST STYLES*/
+
+  /*drink background image styles*/
+
+/*.nav{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600; 
+  background:  #001122;
+}
+*/
+
+.button{
+  position: fixed;
+  z-index: 2;
+  top: 25px;
+  left: 25px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2d3a47; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+
+    /* Optional: Add a box shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #0056b3;
+
+}
+
+.gradient-d{
+  background: linear-gradient(180deg, #329247 0%, #1D4D27 100%);
+  width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #e4e3e3;
+}
+
+.heading-d{
+  padding-bottom: 50px;
+}
+
+.items, .price{
+  padding-bottom: 10px;
+  color: #11a1ee;
+}
+
+/*Appetizers styles beging here*/
+
+.appet{
+  text-align: center;
+  position: relative;
+}
+
+.catfish-peppersoup {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 300px;
+  height: 278px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-width: 100px;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+  border-radius: 20px;
+  margin: 0 0 40px 0;
+  padding-top: 20px;
+}
+
+
+
+.catfish-img{
+  flex-shrink: 0;
+  max-width: 267px;
+  max-height: 220px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 13px;
+  padding: 10px 10px 10px 10px;
+}
+
+#para-meals{
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  position: relative;
+  
+}
+
+#bold{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+}
+
+.description-price{
+  justify-content: space-between;
+}
+
+
+/*Breakfast styles beging here*/
+
+.break{
+  text-align: center;
+  position: relative;
+  
+}
+
+.breakfast-img {
+  flex-shrink: 0;
+  max-width: 350px;
+  max-height: 240px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.break-content {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  max-width: 350px;
+  height: min-content; /* 263px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px 0px 20px;
+  position: relative;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 10;
+  border-radius: 0px 0px 20px 20px;
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.p-break{
+  flex-shrink: 0;
+  width: 100%;
+  height: auto; /* 22px */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, #001122);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1.4;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.p-content{
+  flex-shrink: 0;
+  height: auto; /* 128px */
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+}
+
+.break-price{
+  flex-shrink: 0;
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, #001122);
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  text-align: right;
+}
+
+.spag-on-fire-content{
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 350px;
+  height: min-content; /* 212px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px 0px 20px;
+  position: relative;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 10;
+  border-radius: 0px 0px 20px 20px;
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+
+}
+
+.spag-break-price{
+  flex-shrink: 0;
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, #001122);
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.spag-content{
+  flex-shrink: 0;
+  height: auto; /* 128px */
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+  max-width: 900px;
+  padding: 0 5px;
+}
+
+
+/*Beef steak styles beging here*/
+
+.sal-cont{
+  display: flex;
+  margin: 0 5px 10px 5px;
+}
+
+.steak-price{
+  flex-shrink: 0;
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, #001122);
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.p-content-a{
+  flex-shrink: 0;
+  height: auto; /* 128px */
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 15px 0 0;
+}
+
+/*Main Menu styles beging here*/
+
+.p-content-b{
+  flex-shrink: 0;
+  width: 100px;
+  height: auto; /* 128px */
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+}
+
+.p-content-c{
+  flex-shrink: 0;
+  width: 80px;
+  height: auto; /* 128px */
+  overflow: visible;
+  position: relative;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  text-align: left;
+}
+
+.general{
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: #666;
+}
