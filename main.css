@@ -85,12 +85,12 @@
 .bn632-hover.bn21 {
     background-image: linear-gradient(
       to right,
-      #fc6076,
-      #ff9a44,
-      #ef9d43,
-      #e75516
+      #2cb967,
+      #0aa149,
+      #20793e,
+      #024418
     );
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(58, 224, 72, 0.75);
   }
   
 #bn-home{
